@@ -11,7 +11,7 @@ In your generated code(e.g: gen-nodejs/*.js), replace
 ```
 var Thrift = require('thrift').Thrift; 
 ```
-to
+with
 ```
 var Thrift = require('thrift-http').Thrift;
 ```
