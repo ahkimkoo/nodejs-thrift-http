@@ -7,7 +7,7 @@ npm install thrift-http
 ```
 
 #Important#
-In your generated code, replace
+In your generated code(e.g: gen-nodejs/*.js), replace
 ```
 var Thrift = require('thrift').Thrift; 
 ```
