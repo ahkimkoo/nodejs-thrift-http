@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/ahkimkoo/nodejs-thrift-http.git"
   },
-  "version": "1.0.0-dev",
+  "version": "1.0.0",
   "author": {
     "name": "cherokee",
     "email": "successage@gmail.com",
