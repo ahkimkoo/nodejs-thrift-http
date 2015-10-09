@@ -6,6 +6,16 @@ nodejs thrift library, http supported
 npm install thrift-http
 ```
 
+#Important#
+In your generated code, replace
+```
+var Thrift = require('thrift').Thrift; 
+```
+to
+```
+var Thrift = require('thrift-http').Thrift;
+```
+
 #Usage#
 ```
 var thrift = require('thrift-http');
