@@ -1,0 +1,37 @@
+{
+  "name": "thrift-http",
+  "description": "node.js bindings for the Apache Thrift RPC system, http supported",
+  "homepage": "https://github.com/ahkimkoo/nodejs-thrift-http.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahkimkoo/nodejs-thrift-http.git"
+  },
+  "version": "1.0.0-dev",
+  "author": {
+    "name": "cherokee",
+    "email": "successage@gmail.com",
+    "url": "https://github.com/ahkimkoo"
+  },
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "bugs": {
+    "url": "https://issues.apache.org/jira/browse/THRIFT"
+  },
+  "directories": {
+    "lib": "./lib/thrift"
+  },
+  "main": "./lib/thrift",
+  "engines": {
+    "node": ">= 0.2.4"
+  },
+  "dependencies": {
+    "node-int64": "~0.3.0",
+    "q": "1.0.x",
+    "ws": "~0.4.32"
+  }
+}
