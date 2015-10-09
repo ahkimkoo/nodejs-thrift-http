@@ -8,7 +8,7 @@ npm install thrift-http
 
 #Usage#
 ```
-var thrift = require('thrift');
+var thrift = require('thrift-http');
 var helloSvc = require('./gen-nodejs/helloSvc.js');
 
 var options = {
