@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/ahkimkoo/nodejs-thrift-http.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "cherokee",
     "email": "successage@gmail.com",
@@ -30,7 +30,7 @@
     "node": ">= 0.2.4"
   },
   "dependencies": {
-    "node-int64": "~0.3.0",
+    "node-int64": "~0.4.0",
     "q": "1.0.x",
     "ws": "~0.4.32"
   }
